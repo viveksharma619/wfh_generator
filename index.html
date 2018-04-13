@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>WFH Generator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+    <script src="descrambler.js" charset="utf-8"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body style="background: #209DA3">
+    <nav class="navbar">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/"><img class="nav-image" src="images/Combined Shape.png" alt=""></a>
+            </div>
+        </div>
+        <!-- /.container -->
+        <p class="pull-right" id="sharereason">Got a creative reason ? Share with us !</p>
+    </nav>
+    <!-- Reason Start-->
+    <div class="container">
+        <section>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-12">
+                    <div class="reason_container">
+                        <p id="reason" class="reason">
+                            Got some pain in leg. Won't be able to walk to the office.
+                        </p>
+                    </div>
+                    <p class="click_to_copy dark_font" onclick="clickToCopy()">Click to copy it to the clipboard.</p>
+                    <button style="color: #209DA3">Show me another reason</button>
+                </div>
+            </div>
+        </section>
+        <!-- Reason End-->
+        <div class="row coming_soon">
+            <p class="dark_font">Comming Soon On</p>
+            <div class="app_download_container">
+              <img class="app_download" src="images/play-store.svg" alt="">
+              <img class="app_download" src="images/app-store.svg" alt="">
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+                <p>Ssssh !! Share it only with your close friends.</p>
+            </div>
+            <div class="row">
+                <ul class="social_container">
+                    <li>
+                      <span class="fab fa-facebook"></span>
+                    </li>
+                    <li>
+                      <span class="fab fa-twitter"></span>
+                    </li>
+                    <li>
+                      <span class="fab fa-whatsapp"></span>
+                    </li>
+                    <li>
+                    <span class="fab fa-slack"></span>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
